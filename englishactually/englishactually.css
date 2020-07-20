@@ -3,9 +3,11 @@
     padding:0;
     margin: 0;
     }
+
 body {
     background: rgb(247,237,237);
-    background: linear-gradient(130deg, rgba(247,237,237,1) 1%, rgba(238,132,136,1) 40%, rgba(129,179,227,1) 71%, rgba(197,215,232,1) 99%);
+    animation-name: change-color;
+    animation-duration: 2s;
 }
 html {
      scroll-behavior: smooth;
